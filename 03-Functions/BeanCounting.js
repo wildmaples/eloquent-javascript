@@ -15,8 +15,7 @@ function countBs(str) {
 function countChar(str, char) {
   count = 0
   for (let index = 0; index < str.length; index++) {
-    const currentCharacter = str[index];
-    if (currentCharacter == char) {
+    if (str[index] == char) {
       count += 1
     }
   }
